@@ -1,0 +1,83 @@
+h1 {
+    font-size: 50px;
+    
+
+}
+header > img {
+    display: block;
+    margin: auto;
+}
+h3{
+    font-size: 40px;
+}
+
+.image {
+    background-image: url(istockphoto-861445168-1024x1024.jpg) ;
+    color: white;
+    padding-left: 15px;
+   text-align: left;
+   font-size: 18px;
+    font-weight: bold;
+}
+ 
+nav {
+    list-style: none;
+    text-align: center;
+    border: black 2px solid;
+    background-color: gray;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav a:hover{
+   color: yellow;
+   text-decoration: underline
+}
+
+nav a:active{
+   text-decoration: underline;
+   
+ }
+
+ section{
+    display: flex;
+    gap:20px 20px ;
+    margin-top: 10px;
+    margin-bottom: 10px
+} 
+article{
+    flex: 1;    
+}
+footer{
+    display: flex;
+}
+   
+
+footer div{
+    flex: 1;
+}
+
+div > p{
+    text-align: right;
+    text-decoration-line: overline;
+}
+
+
+article > img{
+    border-style: 5px;
+    max-width: 100%;
+}
+article li{
+        list-style: none
+}
+
+.design{
+    background-color: darkgray;
+}
